@@ -205,5 +205,3 @@ function winningResult() {
   resultShow.appendChild(divresult);
   resultDiv.appendChild(resultShow);
 }
-
-
