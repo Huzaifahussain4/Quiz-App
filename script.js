@@ -141,7 +141,7 @@ function countDownTimer(seconds) {
   }, 1000);
 }
 
-// countDownTimer(1);
+countDownTimer(10);
 
 nextButton.addEventListener("click", nextQuestion);
 
