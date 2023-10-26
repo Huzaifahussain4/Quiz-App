@@ -134,9 +134,6 @@ function countDownTimer(seconds) {
       countdown = 0;
       displayQuiz();
     }
-    // if (indexno === quizQuestions.length) {
-    // winningResult();
-    // }
     queCountNo.innerText = indexno + 1
   }, 1000);
 }
