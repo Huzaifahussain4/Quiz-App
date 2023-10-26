@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Quiz App</title>
+
+</head>
+<body>
+    <div class="container">
+        <div class="containerDiv">
+            <div class="titleNcountDiv">
+                <div class="titleName" id="title">Super Quiz</div>
+                <div id="timer" class="countDown">00</div>
+            </div>
+            <div class="tiitleAndCountDown">
+                <div class="ImageDiv" id="queImage"><img src="./assets/que image-01.png" alt="" class="Image"></div>
+                <span class="queCount" id="queNumber">10/ <span id="queCountNo">1</span></span>
+                <div class="ImageDiv" id="winningImage" style="display: none"><img src="./assets/winning image-02-02.png" alt="" class="Image"></div>
+                <div class="ImageDiv" id="losingImage" style="display: none"><img src="./assets/lose image-02.png" alt="" class="Image"></div>
+            </div>
+                <div class="queDivContainer">
+                    <div id="quizDiv" class="quizDiv"></div>
+                    <div id="resultDiv" style="display: none">
+                    </div>
+                    <div id="scoreMainContainer" style="display: none;">
+                        <div class="scoreMainDiv">
+                            <div class="scoreFirstDiv">
+                                <span id="scoreNo" class="numbersCount" style="display: none ; color: #1ad06e;">00</span>
+                                <div id="score" class="scoreCount" style="display: none">Score</div>
+                            </div>
+                            <div class="scoreFirstDiv">
+                                <span id="wrongNo" class="numbersCount" style="display: none; color: #db4a4a;">00</span>
+                                <div id="wrongDiv" class="scoreCount" style="display: none">Wrong</div>
+                            </div>
+                        </div>
+                    </div>
+                    <button id="retryBtn" class="nextBtn" style="display: none;">Again</button>
+                        <!-- <div id="wrongDiv" class="scoreCount" style="display: none">Wrong : <span id="wrongNo">00</span></div> -->
+                    <button id="nextBtn" disabled class="nextBtn">Next</button>
+                </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
